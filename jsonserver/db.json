@@ -1,0 +1,91 @@
+{
+    "collections": [
+        {
+            "my_type": "MovieCollectionModel",
+            "title": "Movies",
+            "image": "assets/imgs/movies.svg",
+            "id": 0,
+            "total_items": 1,
+            "collection_items": [
+                {
+                    "my_type": "MovieCollectionItemModel",
+                    "name": "Iron Man 2",
+                    "condition": "mint",
+                    "quantity": 2,
+                    "media_type": "Blu-ray",
+                    "item_location": "A-2",
+                    "description": "The movie is in very good condition. Minor scratches on the case, but nothing major.",
+                    "images": [
+                        "./assets/imgs/iron_man_2/1.jpg",
+                        "./assets/imgs/iron_man_2/2.jpg",
+                        "./assets/imgs/iron_man_2/3.jpg",
+                        "./assets/imgs/iron_man_2/4.jpg",
+                        "./assets/imgs/iron_man_2/5.jpg",
+                        "./assets/imgs/iron_man_2/6.jpg"
+                    ]
+                },
+                {
+                    "my_type": "MovieCollectionItemModel",
+                    "name": "Iron Man 3",
+                    "condition": "mint",
+                    "quantity": 4,
+                    "media_type": "Blu-ray",
+                    "item_location": "A-3",
+                    "description": "The movies are in very good condition. Minor scratches on the case, but nothing major. I have multiple copies, all in very good condition.",
+                    "images": [
+                        "./assets/imgs/iron_man_2/1.jpg",
+                        "./assets/imgs/iron_man_2/2.jpg",
+                        "./assets/imgs/iron_man_2/3.jpg",
+                        "./assets/imgs/iron_man_2/4.jpg",
+                        "./assets/imgs/iron_man_2/5.jpg",
+                        "./assets/imgs/iron_man_2/6.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "my_type": "CardCollectionModel",
+            "title": "Pokemon",
+            "image": "assets/imgs/cards.svg",
+            "id": 1,
+            "total_items": 1,
+            "collection_items": [
+                {
+                    "my_type": "CardCollectionItemModel",
+                    "name": "Rayquaza",
+                    "condition": "mint",
+                    "quantity": 1,
+                    "item_location": "A-2",
+                    "description": "The card is in mint condition. There is no major physical damage. There are some very minor white spots on the corners of the card.",
+                    "images": [
+                        "./assets/imgs/rayquaza/1.jpg",
+                        "./assets/imgs/rayquaza/2.jpg",
+                        "./assets/imgs/rayquaza/3.jpg",
+                        "./assets/imgs/rayquaza/4.jpg",
+                        "./assets/imgs/rayquaza/5.jpg",
+                        "./assets/imgs/rayquaza/6.jpg"
+                    ],
+                    "subcategory": "Dragon Vault"
+                }
+            ]
+        },
+        {
+            "title": "Yugioh",
+            "image": "./assets/imgs/cards.svg",
+            "id": 2,
+            "total_items": 0,
+            "my_type": "CardCollectionModel",
+            "collection_items": []
+        }
+    ],
+    "collection_types": [
+        {
+            "my_type": "CollectionTypeModel",
+            "title": "Movies"
+        },
+        {
+            "my_type": "CollectionTypeModel",
+            "title": "Cards"
+        }
+    ]
+}

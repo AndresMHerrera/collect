@@ -1,0 +1,22 @@
+{
+  "name": "jsonserver",
+  "version": "1.0.0",
+  "description": "Fake REST API for testing",
+  "main": "index.js",
+  "scripts": {
+    "test:server": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndresMHerrera/collect.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndresMHerrera/collect/issues"
+  },
+  "homepage": "https://github.com/AndresMHerrera/collect#readme",
+  "dependencies": {
+    "json-server": "^0.15.0"
+  }
+}
